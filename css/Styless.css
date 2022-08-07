@@ -1,0 +1,16 @@
+.nvar{
+    background-color:#FFFFFF;
+}
+
+.textoBarra{
+    color: #01633B;  
+    font-size: 14px;
+    font-family:'Open Sans', sans-serif;
+}
+
+.barrita{
+    margin-top:33px !important;
+    padding-right: 30px !important; 
+    padding-left: 30px !important; 
+    border-top: 3px solid #01633B !important;
+}
