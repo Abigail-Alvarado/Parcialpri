@@ -72,7 +72,7 @@
 
 .textocu{
     text-align: center;
-    
+
 }
 
 .botonParallax{
@@ -99,4 +99,9 @@
     min-height:100px; 
     min-width: 270px;
     text-align: center;
+}
+
+.sombra{
+    box-shadow: 10px 10px 5px #bcbcbc;
+    margin-bottom: 30px;
 }
