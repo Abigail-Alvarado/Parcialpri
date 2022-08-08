@@ -34,14 +34,42 @@
 }
 
 .boton{
-    margin-left: 1200px;
-}
-.imagen{
-  margin-bottom: 500px;
+    margin-left: 1250px;
 }
 
 .textoinicial{
     font-size: 13px;
     font-family:'Open Sans', sans-serif;
 
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('/Assets/para.png');
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+  }
+
+  .com{
+    /* margin-right: 50.125px !important; */
+    margin:  26.859px, 134.312px, 0px, 134.297px !important;
+    padding-top: 27px;
+    height: 294.156px !important; 
+    width: 1106.61px !important; 
+}
+
+.mov{
+    margin-top: 25px;
+}
+
+.textocu{
+    text-align: center;
 }
