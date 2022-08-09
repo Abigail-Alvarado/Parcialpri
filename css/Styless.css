@@ -105,3 +105,39 @@
     box-shadow: 10px 10px 5px #bcbcbc;
     margin-bottom: 30px;
 }
+
+.button5{
+    transition: 0.3s;
+    background-color:#FFFFFF;
+    color: #01633B;
+    border:none;
+    border-radius:0px;
+    font-size:25px;
+    min-height:50px; 
+    min-width: 150px;
+}
+
+.button5 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button5 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button5:hover span {
+    padding-right: 25px;
+  }
+  
+  .button5:hover span:after {
+    opacity: 1;
+    right: 0;
+  }

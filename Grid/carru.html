@@ -4,11 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/Styless.css">
-    <link rel="stylesheet" href="../css/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">  
+      <link rel="stylesheet" href="../css/owl.carousel.min.css">
     <link rel="stylesheet" href="../css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="../css/Styless.css">
+
     <link rel="stylesheet" href="../css/bootstrap.css">
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+    <title>Document</title>
 
     <style>
         .title{
@@ -17,6 +25,14 @@
             font-size: 100px;
         }
 
+        .item1{
+            background: transparent;
+            color: aquamarine;
+            justify-content: center;
+            align-items: center;
+            height: 60em;
+            display:block;
+        }
         .item{
             background: transparent;
             color: aquamarine;
@@ -37,7 +53,7 @@
         }
 
     </style>
-    <title>Document</title>
+    
 </head>
 <body>
     
@@ -60,14 +76,14 @@
             <div class="owl-container" style="margin-top: 50px;">
                 <div class="owl-carousel owl-theme" >
                     
-                    <div class="item"> 
+                    <div class="item1"> 
                         <div class="container" style="padding: 1px;">
                             <h1 style="text-align: center; font-size: smaller;"">Revista Explora-5ta. Edición </h1>
                             <img src="../Assets/EXPLORAMESO-5taEdicion-1.png">
                         </div>
                     </div>
 
-                    <div class="item">
+                    <div class="item1">
                         
                         <div class="container" style="padding: 0px; font-size: smaller;">
                             <h1 style="text-align: center; font-size: smaller;">Revista Explora-4ta. Edición </h1>
@@ -75,21 +91,21 @@
                         </div>
                     </div>
 
-                    <div class="item">
+                    <div class="item1">
                         <div class="container" style="padding: 1px; font-size: smaller;">
                             <h1 style="text-align: center; font-size: smaller;">Revista Explora-3ra. Edición</h1>
                             <img src="../Assets/Explora-Revista_3.png">
                         </div>
                     </div>
 
-                    <div class="item">
+                    <div class="item1">
                         <div class="container" style="padding: 1px;">
                             <h1 style="text-align: center; font-size: smaller;">Revista Explora-2da. Edición</h1>
                             <img src="../Assets/PORTADA-MESO-2.jpg">
                         </div>
                     </div>
 
-                    <div class="item">
+                    <div class="item1">
                         <div class="container" style="padding: 1px;" >
                             <h1 style="text-align: center; font-size: smaller;">Revista Explora-1ra. Edición</h1>
                             <img src="../Assets/EXPLORAMESO-5taEdicion-1.png">
@@ -105,15 +121,74 @@
     </div>
 
     <br><br>
-
+<!-- Carrusel -->
     <div class="container">
         <div class="row">
             <div class="col-6">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste officia facere labore excepturi odit vero, deserunt delectus, enim quidem aperiam voluptas molestiae numquam optio, ipsa illo aliquam. Eligendi, similique illum!
+                
+                <h1 style="text-align:center; margin-top: 50px; font-size: 31px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Mantente Informado</h1>
+                <p>
+                    Sigue las noticias de las actividades e información de Universidad Mesoamericana.
+                </p>
+
+                <button type="button" class="btn btn-success" style="margin-left: 35%;">Nuestras Carreras</button> 
             </div>
 
             <div class="col-6">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius nisi eos nulla iure eveniet incidunt magni? Quaerat dolores eaque esse recusandae eius enim sequi qui, cumque possimus, inventore pariatur sit!
+                Carrusel
+                <div class="container">
+                    <h2>Carousel Example</h2>
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                      <!-- Indicators -->
+                      <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                      </ol>
+                  
+                      <!-- Wrapper for slides -->
+                      <div class="carousel-inner">
+                  
+                        <div class="item active">
+                          <img src="la.jpg" alt="Los Angeles" style="width:100%;">
+                          <div class="carousel-caption">
+                            <h3>Los Angeles</h3>
+                            <p>LA is always so much fun!</p>
+                          </div>
+                        </div>
+                  
+                        <div class="item">
+                          <img src="chicago.jpg" alt="Chicago" style="width:100%;">
+                          <div class="carousel-caption">
+                            <h3>Chicago</h3>
+                            <p>Thank you, Chicago!</p>
+                          </div>
+                        </div>
+                      
+                        <div class="item">
+                          <img src="ny.jpg" alt="New York" style="width:100%;">
+                          <div class="carousel-caption">
+                            <h3>New York</h3>
+                            <p>We love the Big Apple!</p>
+                          </div>
+                        </div>
+                    
+                      </div>
+                  
+                      <!-- Left and right controls -->
+                      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
+                    </div>
+                  </div>
+
+
+
             </div>
 
         </div>
@@ -128,5 +203,6 @@
     <script src="../js/jquery.min.js"></script>
     <script src="../js/owl.carousel.min.js"></script>
     <script src="../js/main.js"></script>
+    
 </body>
 </html>
