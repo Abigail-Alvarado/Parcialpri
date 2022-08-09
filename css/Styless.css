@@ -1,11 +1,13 @@
 .nvar{
     background-color:#FFFFFF;
+    font-size: 14px;
+    
 }
 
 .textoBarra{
     padding-top: 25px;
     color: #01633B;  
-    font-size: 14px;
+    font-size: 20px;
     font-family:'Open Sans', sans-serif;
 }
 
