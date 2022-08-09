@@ -141,3 +141,14 @@
     opacity: 1;
     right: 0;
   }
+
+  .Icon{
+    transition: 0.3s;
+    color:#424242;
+    font-size: 50px;
+}
+.Icon:hover{
+    transition: 0.3s;
+    color:#007F04;
+    font-size: 60px;
+}
