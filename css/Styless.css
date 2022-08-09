@@ -154,3 +154,10 @@
     color:#007F04;
     font-size: 60px;
 }
+.car1item{
+    padding: 20px !important;
+    background-color: #01633B; 
+}
+.tem:hover{
+    background-color: #a8c1b6 !important;
+}
